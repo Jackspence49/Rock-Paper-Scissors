@@ -1,16 +1,14 @@
 /* Whole Page */
 .page{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Header Section */
 .header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    margin: 20px;
 }
 
 .title {
@@ -21,7 +19,43 @@
 }
 
 .subheading{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10px;
-    color: #0A9396;
+    color: #005f73;
 }
+
+/* Options Section */
+
+.optionSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+
+.OptionTitle{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ca6702;
+    margin-bottom: 10px;
+}
+
+.Options {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+	background-color: white;
+    height: 75px;
+    width: 160px;
+    font-weight: bold;
+    text-align: center;
+    color: #001219;
+    font-size: 30px;
+    border: 5px solid #e9d8a6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
