@@ -58,4 +58,38 @@ button {
     cursor: pointer;
 }
 
+/* Choices Section */
+.choiceSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
 
+.Choices {
+    font-weight: bold;
+    font-size: 20px;
+    color: #001219;
+    margin-bottom: 10px;
+}
+
+.scoresSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+
+.Scores {
+    font-weight: bold;
+    font-size: 20px;
+    color: #001219;
+    margin-bottom: 10px;
+}
+
+.scoreboard {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ca6702;
+    font-weight: bolder;
+}
