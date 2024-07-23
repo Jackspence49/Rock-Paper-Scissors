@@ -93,3 +93,10 @@ button {
     color: #ca6702;
     font-weight: bolder;
 }
+
+.outcome {
+    font-weight: bolder;
+    font-size: 60px;
+    color: #001219;
+    text-align: Center;
+}
