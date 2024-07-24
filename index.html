@@ -11,25 +11,24 @@
     <div class="page">
         <div class="header">
             <h1 class="title">Rock - Paper - Scissors</h1>  
-            <h2 class="subheading">First to three wins!</h2>
         </div>
         <div class="optionSection">
             <div class="OptionTitle">Select an Choice:</div>
             <div class="Options">
-                <button id="rock">Rock</button>
-                <button id="paper">Paper</button>
-                <Button id="scissors">Scissors</Button>
+                <button onclick = "playRound('Rock')">Rock</button>
+                <button onclick = "playRound('Paper')">Paper</button>
+                <Button onclick = "playRound('Scissors')">Scissors</Button>
             </div>
         </div>
         <div class="choiceSection">
-            <div class="Choices">Computer:</div>
-            <div class="Choices">Player:</div>
+            <div class="Choices" id="computerDisplay">Computer:</div>
+            <div class="Choices" id="playerDisplay">Player:</div>
         </div>
-        <div class="outcome"></div>
+        <div id="results"></div>
         <div class="scoresSection">
             <div class="scoreboard">Scoreboard:</div>
-            <div class="Scores">Computer Score:</div>
-            <div class="Scores">Player Score:</div>
+            <div class="Scores" id="computerScoreDisplay">Computer Score:</div>
+            <div class="Scores" id="playerScoreDisplay">Player Score:</div>
         </div>
     </div>
 </body>

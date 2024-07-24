@@ -14,14 +14,8 @@
 .title {
     font-weight: bolder;
     font-size: 60px;
-    color: #001219;
-    margin-bottom: 10px;
-}
-
-.subheading{
-    font-size: 40px;
-    margin-top: 10px;
     color: #005f73;
+    margin-bottom: 10px;
 }
 
 /* Options Section */
@@ -94,9 +88,10 @@ button {
     font-weight: bolder;
 }
 
-.outcome {
+#results {
     font-weight: bolder;
     font-size: 60px;
-    color: #001219;
     text-align: Center;
+    color: #005f73;
 }
+
